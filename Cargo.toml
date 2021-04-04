@@ -1,0 +1,15 @@
+[package]
+name = "rust_mssql"
+version = "0.1.0"
+authors = ["korniii <moritz.kornmeier@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.4.0", features = ["full"] }
+tokio-util = {version = "0.6.5", features = ["compat"] }
+tiberius = {version = "0.5.12", features = ["bigdecimal"]}
+once_cell = "1.7.2"
+anyhow = "1.0.40"
+bigdecimal = "0.2.0"
